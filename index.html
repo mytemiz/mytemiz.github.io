@@ -10,7 +10,7 @@
     <button id="connect">Get access token</button>
     <button id="record">record 1s</button>
     <div id="oembed"></div>
-    <p>Access token: <span id="accesstoken"></span></p>
+    <p>Access token: <span id="accesstoken" style="color:red"></span></p>
 
     <script type="text/javascript">
       SC.initialize({
@@ -20,7 +20,7 @@
 
       var connect = function(){
       SC.connect(function(){
-          console.log(SC.accessToken());
+          //console.log(SC.accessToken());
           document.getElementById('accesstoken').innerHTML = SC.accessToken();
       });
       };
