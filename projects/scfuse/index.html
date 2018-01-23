@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scfuse - SoundCloud servisi için FUSE uygulaması | myt</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="https://mytemiz.github.io">/home/myt</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/projects/">~/projeler</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/rss</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">scfuse - SoundCloud servisi için FUSE uygulaması</span></h1>
+
+<h2 class="date">2018/01/09</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p>[<a href="https://bitbucket.org/mytemiz/scfuse">Kaynak kod</a>]</p>
+
+<h1 id="scfuse">scfuse</h1>
+
+<p>FUSE implementation of SoundCloud web service using <a href="http://www.python.org">Python</a>.</p>
+
+<h3 id="how-do-i-get-set-up">How do I get set up?</h3>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>First of all you need a SoundCloud account. If you don&rsquo;t have an account go to <a href="http://www.soundcloud.com">SoundCloud</a> website and create an account.</p>
+
+<p><strong>1.</strong> Get the code</p>
+
+<pre><code class="language-bash">git clone https://mytemiz@bitbucket.org/mytemiz/scfuse.git
+</code></pre>
+
+<p><strong>2.</strong> Get access token from the following link: <a href="http://mytemiz.github.io">http://mytemiz.github.io</a>
+Copy the access token into the config.py.</p>
+
+<pre><code>ACCESS_TOKEN = 'your access token'
+</code></pre>
+
+<h3 id="dependencies">Dependencies</h3>
+
+<ul>
+<li><strong><a href="http://www.python.org">Python3</a></strong></li>
+<li><strong><a href="https://github.com/soundcloud/soundcloud-python">soundcloud-python-0.5.0</a></strong></li>
+<li><strong><a href="https://github.com/terencehonles/fusepy">fusepy</a></strong> You do not need to install this package. This is provided in the source code. But you should check the requirements of this module:</li>
+</ul>
+
+<pre><code>fusepy requires FUSE 2.6 (or later) and runs on:
+    Linux (i386, x86_64, PPC)
+    Mac OS X (Intel, PowerPC)
+    FreeBSD (i386, amd64)
+</code></pre>
+
+<h3 id="how-to-run">How to run</h3>
+
+<p>Create a directory for mounting. And run the main script.</p>
+
+<pre><code class="language-bash">cd scfuse
+# create mount directory
+mkdir mountdir
+python3 main.py mountdir
+</code></pre>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/mytemiz">Github</a> | <a href="https://twitter.com/myt_temiz">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qt on myt</title>
+    <link>https://mytemiz.github.io/tags/qt/</link>
+    <description>Recent content in Qt on myt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2018 11:05:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://mytemiz.github.io/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCNC</title>
+      <link>https://mytemiz.github.io/projects/tcnc/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/projects/tcnc/</guid>
+      <description>tcnc tcnc grbl 0.9 firmware için gelişmiş arayüz sunan bir masaüstü uygulamasıdır. Bu uygulama ile grbl 0.9 yazılımı ile kontrol edilen 4 eksen cnc makinaları yönetilebilmektedir. Uygulama linux ve windows üzerinde çalışabilmektedir. Programın geliştirilmesinde esneklik ve kolay kullanım ön plana alınmıştır. Gelişmiş kullanıcı arayüzü kullanım hatalarını minimize eder. Programın başlıca özellikleri:
+ grbl 0.9 ile tam uyum gcode simülasyonu toplam işlem süresi özelleştirilebilir arayüz iş otomatikleştirme makroları  tcnc, tcad geliştirici ekibi tarafından geliştirilmiştir.</description>
+    </item>
+    
+  </channel>
+</rss>

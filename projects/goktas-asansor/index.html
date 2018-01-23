@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Göktaş Asansör Mobil Kumanda | myt</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="https://mytemiz.github.io">/home/myt</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/projects/">~/projeler</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/rss</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Göktaş Asansör Mobil Kumanda</span></h1>
+
+<h2 class="date">2018/01/09</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/android">android</a> <a href="/tags/arduino">arduino</a> <a href="/tags/embedded">embedded</a> <a href="/tags/bluetooth">bluetooth</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<h1 id="göktaş-asansör-mobil-kumanda">Göktaş Asansör Mobil Kumanda</h1>
+
+<p><img src="../../img/goktas-asansor.png" width="200px"/></p>
+
+<p>Bu uygulama bir kuyumcu vitrin asansörü için mobil uygulama üzerinde bluetooth bağlantısı ile
+asansörün kontrolü için hazırlandı. Uygulamada iki alanda çalışmalar yapıldı.</p>
+
+<ul>
+<li>İlk kısımda bluetooth bağlantısı ile kontrol sağlayan devrenin tasarlanıp pano ile entegrasyonu,</li>
+<li>ikinci kısımda ise mobil uygulamanın hazırlanması</li>
+</ul>
+
+<p>üzerinde çalışıldı.
+İlk kısım arduino tabanlı bir sistemde giriş çıkışların bluetooth ile kontrolü ile sağlandı. Gelen veriye göre
+gerekli çıkışların yüksek ya da düşük değer alması ile kumanda işlemleri tanımlandı. Daha sonra bu sistemin mevcut
+panoya uygulanabilmesi için gerekli elektronik parçalar ve kart tasarımı yapıldı. Bu kart da sisteme entegre edilerek
+mevcut pano modernize edilmiş oldu.</p>
+
+<p>İkinci kısımda ise Qt Android kütüphaneleri ve QtQuickControls kullanılarak bir arayüz tasarımı yapıldı. Bu tasarıma gerekli
+bluetooth modülleri de eklenerek mobil cihaz üzerinden panoya erişim sağlayan bir uygulama gerçeklendi.</p>
+
+<p>Uygulama sadece belirli bir ürüne yönelik olduğu için o ürün olmadan bir faaliyet göstermemektedir.
+Android için aşağıdaki linkten uygulamaya ulaşabilirsiniz.
+<a href="https://play.google.com/store/apps/details?id=org.myt.goktasasansor"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200px""/></a></p>
+
+<h3 id="referanslar">Referanslar</h3>
+
+<ol>
+<li><a href="https://play.google.com/store/apps/details?id=org.myt.goktasasansor">https://play.google.com/store/apps/details?id=org.myt.goktasasansor</a></li>
+</ol>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/mytemiz">Github</a> | <a href="https://twitter.com/myt_temiz">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

@@ -6,9 +6,145 @@
     <description>Recent content in Tags on myt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2018 11:05:51 +0000</lastBuildDate>
     
 	<atom:link href="https://mytemiz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android</title>
+      <link>https://mytemiz.github.io/tags/android/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://mytemiz.github.io/tags/arduino/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bluetooth</title>
+      <link>https://mytemiz.github.io/tags/bluetooth/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/bluetooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cad</title>
+      <link>https://mytemiz.github.io/tags/cad/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/cad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cam</title>
+      <link>https://mytemiz.github.io/tags/cam/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/cam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cnc</title>
+      <link>https://mytemiz.github.io/tags/cnc/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/cnc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-platform</title>
+      <link>https://mytemiz.github.io/tags/cross-platform/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/cross-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dxf</title>
+      <link>https://mytemiz.github.io/tags/dxf/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/dxf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded</title>
+      <link>https://mytemiz.github.io/tags/embedded/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gcode</title>
+      <link>https://mytemiz.github.io/tags/gcode/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/gcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grbl</title>
+      <link>https://mytemiz.github.io/tags/grbl/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/grbl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qt</title>
+      <link>https://mytemiz.github.io/tags/qt/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/qt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Svg</title>
+      <link>https://mytemiz.github.io/tags/svg/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/svg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toolpath</title>
+      <link>https://mytemiz.github.io/tags/toolpath/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/toolpath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usbserial</title>
+      <link>https://mytemiz.github.io/tags/usbserial/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/tags/usbserial/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

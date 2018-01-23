@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dxf on myt</title>
+    <link>https://mytemiz.github.io/tags/dxf/</link>
+    <description>Recent content in Dxf on myt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2018 11:05:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://mytemiz.github.io/tags/dxf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCAD</title>
+      <link>https://mytemiz.github.io/projects/tcad/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/projects/tcad/</guid>
+      <description>tcad, yerli olarak geliştirilen, 2 boyutlu bir CAD/CAM yazılımıdır. Proje 2015 yılında kuyumculuk sektöründe 2.5D takımyolu ile çalışabilen masaüstü cnc tezgahlarına uygulanmak üzere başladı. Mevcut halde test sürümü ortaya çıkmıştır ve geliştirme çalışmaları devam etmektedir.
+Galeri             
+Özellikler CAD modülü Programın sağladığı özellikler maddeler halinde listelenmiştir.
+ 2D çizim araçları:
+ çizgi spline poligon yıldız daire elips yay dikdortgen metin  Düzenleme araçları:</description>
+    </item>
+    
+  </channel>
+</rss>
