@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image processing on myt</title>
+    <link>https://mytemiz.github.io/tags/image-processing/</link>
+    <description>Recent content in Image processing on myt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2018 11:05:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://mytemiz.github.io/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entina Resim Düzenleyici</title>
+      <link>https://mytemiz.github.io/projects/entinapaint/</link>
+      <pubDate>Tue, 09 Jan 2018 11:05:51 +0000</pubDate>
+      
+      <guid>https://mytemiz.github.io/projects/entinapaint/</guid>
+      <description>Entina Resim Düzenleyici (EntinaPaint) 
+Bu uygulama tcad den önceki cnc dünyasına girişimin ilk uygulaması. Aynı zamanda Qt&amp;rsquo;yi çözmeye bu proje ile başladım. Hey gidi o zamanlar Qt&amp;rsquo;nin sitesi böyle değildi. Adım adım gelişimini gördüm ;) Neyse cıvıtmadan devam edeyim. Bu projeye başlamadan önce elimize DotG isimli bir yazılım geçti. Bu yazılımın kaynak kodları da açık. Saolsun arkadaş paylaşmış. Amma velakin ki program delphi ile yazılmış. Önce bu yazılım üzerinden biraz görsel değişikliklerle mi yola çıksak diye düşünüyorduk.</description>
+    </item>
+    
+  </channel>
+</rss>
